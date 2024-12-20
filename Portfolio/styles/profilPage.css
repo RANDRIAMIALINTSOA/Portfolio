@@ -1,0 +1,59 @@
+.profil-page {
+  position: relative;
+  height: 100vh;
+  padding: 200px 100px;
+}
+.profil-page .nom {
+  color: rgb(2, 30, 46);
+}
+.profil-page .nom .nm {
+  display: flex;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.profil-page .nom .nm h1 {
+  font-size: 40px;
+}
+.profil-page .nom .nm span {
+  width: 600px;
+  margin-left: 20px;
+  height: 3px;
+  background: rgb(2, 30, 46);
+}
+.profil-page .nom .name {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  margin-left: 30px;
+}
+.profil-page p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 30px 0;
+  font-size: 21px;
+  color: rgba(1, 19, 29, 0.877);
+}
+.profil-page button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px 80px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+  background: rgb(2, 30, 46);
+  cursor: pointer;
+}
+.profil-page .down {
+  width: -moz-fit-content;
+  width: fit-content;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 0px;
+  left: 500px;
+  cursor: pointer;
+}
+.profil-page .down p {
+  border-radius: 50px;
+  background: rgb(2, 30, 46);
+  padding: 35px 10px;
+  color: white;
+  font-size: 12px;
+}/*# sourceMappingURL=profilPage.css.map */

@@ -1,0 +1,70 @@
+.contPage {
+  padding: 150px 100px;
+  position: relative;
+}
+.contPage form .mail {
+  display: flex;
+  align-items: center;
+}
+.contPage form .mail label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+.contPage form .mail input {
+  width: 700px;
+  height: 30px;
+  padding: 0 20px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 5px;
+}
+.contPage form textarea {
+  width: 800px;
+  margin-top: 20px;
+  height: 150px;
+  padding: 10px 20px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 5px;
+}
+.contPage form .subm {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px 80px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+  background: rgb(2, 30, 46);
+  cursor: pointer;
+}
+.contPage .contList {
+  margin-top: 80px !important;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contPage .contList .github, .contPage .contList .mail, .contPage .contList .insta {
+  display: flex;
+}
+.contPage .contList .github p, .contPage .contList .mail p, .contPage .contList .insta p {
+  margin-left: 10px;
+}
+.contPage .toComp {
+  width: -moz-fit-content;
+  width: fit-content;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 0px;
+  left: 500px;
+  cursor: pointer;
+}
+.contPage .toComp p {
+  border-radius: 50px;
+  background: rgb(2, 30, 46);
+  padding: 35px 10px;
+  color: white;
+  font-size: 12px;
+}/*# sourceMappingURL=contactPage.css.map */

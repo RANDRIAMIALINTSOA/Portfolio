@@ -1,0 +1,68 @@
+.sdShow{
+    width: 250px;
+    padding:30px 20px;   
+}
+
+.sdHide{
+    width: 45px;
+    padding: 30px 5px;
+}
+
+.sideBar{
+    height: 100vh;
+    background: rgb(2, 30, 46);
+    padding:30px 20px;
+    position: relative;
+    // width: 100px;
+    .profil{
+        .images{
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            margin: auto;
+            border: 1px solid white;
+            border-radius: 100px;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 100px;
+            }
+        }
+        h1{
+            color: white;
+            margin-top: 15px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 26px;
+        }
+    }
+    .pages{
+        margin-top: 70px;
+        .page{
+            padding: 1px;
+            clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 80%, 91% 100%, 0 100%, 0% 80%, 0% 20%);
+            margin-top: 20px;
+            border-radius: 2px;
+            background: linear-gradient(rgba(134, 7, 50, 0.829),rgb(24, 4, 68),rgb(82, 3, 29));
+            p{
+                cursor: pointer;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align: center;
+                border-radius: 2px;
+                color: white;
+                background: linear-gradient(20deg,rgb(59, 3, 36),rgb(18, 2, 53),rgb(59, 3, 36));
+                padding: 10px ;
+                clip-path: polygon(10% 0, 100% 0, 100% 20%, 100% 80%, 91% 100%, 0 100%, 0% 80%, 0% 20%);
+            }
+        }
+    }
+    .icones{
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        // padding-left: 10px;
+        i{
+            margin-left: 15px;
+        }
+    }
+}
